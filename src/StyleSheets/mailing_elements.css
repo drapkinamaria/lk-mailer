@@ -1,0 +1,247 @@
+.mailing_container {
+    margin-top: -0.2rem;
+    position: relative;
+}
+
+.big_mailer_container {
+    position: relative;
+}
+
+.button_container {
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+.blue_header_container {
+    margin-bottom: 0.3rem;
+}
+
+.button {
+    width: auto;
+    height: 3rem;
+    border-radius: 0.625rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+}
+
+.red {
+    background-color: #EF302B;
+}
+
+.blue {
+    background-color: #1E4391;
+}
+
+.content_container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+.content_header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    border-width: 0.0625rem 0.0625rem 0rem 0.0625rem;
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.content_bottom {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+}
+
+.small_button {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+}
+
+.picture_settings {
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: 2rem 2rem;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.new_picture_settings {
+    width: 1.65rem;
+    height: 1.65rem;
+    background-repeat: no-repeat;
+    background-size: 1.65rem 1.65rem;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.second_picture_settings {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-repeat: no-repeat;
+    background-size: 1.8rem 1.8rem;
+    background-position: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.numbered_list {
+    background-image: url("numbered-list-svgrepo-com.svg");
+}
+
+.arrow_back {
+    background-image: url("arrow-go-back-svgrepo-com.svg");
+}
+
+.arrow_forward {
+    background-image: url("arrow-go-forward-svgrepo-com.svg");
+}
+
+.bold {
+    background-image: url("bold-svgrepo-com.svg");
+}
+
+.italic {
+    background-image: url("italic-svgrepo-com.svg");
+}
+
+.underline {
+    background-image: url("underline-svgrepo-com.svg");
+}
+
+.rubber {
+    background-image: url("rubber-svgrepo-com.svg");
+}
+
+.hamburger {
+    background-image: url("list-svgrepo-com.svg");
+}
+
+.left {
+    left: 5%;
+}
+
+.link {
+    background-image: url("link-svgrepo-com.svg");
+}
+
+.picture {
+    background-image: url("image-svgrepo-com.svg");
+}
+
+.code {
+    background-image: url("code-svgrepo-com.svg");
+}
+
+.whom {
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choice_block {
+    flex: 1 0 25%;
+    min-width: 14.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.choice {
+    min-width: 14.3rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.625rem;
+}
+
+.black_text_header_container {
+    margin-bottom: 0.3rem;
+}
+
+.checkbox_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox_container label {
+    margin: 0 1rem 0 0;
+}
+
+.checkbox_container input[type="checkbox"] {
+    margin-right: 0.3125rem;
+}
+
+.square-container {
+    display: flex;
+}
+
+.ordinary_square {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: solid #D3D3D3;
+    border-width: 0.0625rem;
+}
+
+.without_borders_square {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: solid #D3D3D3;
+    border-width: 0.0625rem 0rem 0.0625rem 0rem;
+}
+
+.left_square {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.625rem 0rem 0rem 0.625rem;
+}
+
+.right_square {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: solid #D3D3D3;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    border-width: 0.0625rem 0.0625rem 0.0625rem 0rem;
+}
+
+.square-block {
+    display: flex;
+    margin-right: 1.25rem;
+}
+
+.square {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFFFFF;
+    border: solid #D3D3D3;
+    border-radius:0.625rem;
+    border-width: 0.0625rem;
+}

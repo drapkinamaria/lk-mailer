@@ -1,0 +1,315 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.0625rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_header {
+    box-sizing: border-box;
+    width: 96%;
+    height: 4.0625rem;
+    margin-left: 2.2%;
+    margin-right: 1.8%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo_urfu {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 7.5rem;
+    height: 3rem;
+    margin-top: 0.7rem;
+    background-image: url('logo_urfu.svg');
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+}
+
+.container_circle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #E9E9E9;
+    text-align: center;
+    line-height: 3rem;
+    margin-left: 1rem;
+}
+
+.four_circles {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url("four_circles.svg");
+    background-repeat: no-repeat;
+    top: 30%;
+    left: 30%;
+}
+
+.search_icon {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("search_icon.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 35%;
+    left: 30%;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.language {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.navigation {
+    position: fixed;
+    top: 4.0625rem;
+    left: 0;
+    width: 16rem;
+    height: calc(100% - 5.0625rem);
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.4063rem;
+    padding-left: 2.125rem;
+}
+
+.information {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("information.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 10%;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.doc {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("doc.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 10%;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.documents {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("documents.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 15%;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.lk_role {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("lk-role.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 10%;
+    width: 1.5rem;
+    height: 1.4rem;
+}
+
+.role {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("role.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 15%;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.text_image_block {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main_part {
+    position: fixed;
+    margin-top: 4.0625rem;
+    margin-bottom: 2rem;
+    margin-left: 16rem;
+    width: calc(100% - 16rem);
+    height: calc(100% - 5.0625rem);
+    min-width: 10rem;
+    background-color: #F6F6F6;
+    overflow: auto;
+}
+
+.block_main_part {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 0.625rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    min-width: 10rem;
+}
+
+.search_block {
+    width: 41%;
+    height: 3rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    position: relative;
+    border-radius: 10px;
+    outline: solid transparent 0.125rem;
+    outline-color: #D3D3D3;
+}
+
+.search {
+    padding-left: 0.5rem;
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100% - 2rem);
+    height: 95%;
+    border: none;
+}
+
+.search:focus {
+    outline-color: white;
+}
+
+.big_search_icon {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-image: url("search_icon.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 20%;
+    width: 1.4rem;
+    height: 1.4rem;
+    transform: scale(1.3);
+}
+
+.name_notification_block {
+    margin-top: 0.75em;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    background-color: #F6F6F6;
+}
+
+.footer_block {
+    position: relative;
+    justify-content: center;
+    padding-left: 34%;
+}
+
+.block_table {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: 95%;
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 40px;
+}
+
+table {
+    font-size: 14px;
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+    font-weight: 700;
+    color: #1E4391;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+td {
+    padding: 0.75rem 0.75rem;
+    border-bottom: 0.0625rem solid #E4E7ED;
+}
+
+.letter_block {
+    position: relative;
+    top: 30%;
+    left: 35%
+}
+
+.container_delivery {
+    display: inline-block;
+}
+
+.status {
+    width: 50px;
+    height: 17px;
+}
+
+.delivered{
+    background: #EDF7EB;
+    border-radius: 15px;
+}

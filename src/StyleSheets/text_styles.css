@@ -1,0 +1,110 @@
+.language_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #1E4391;
+}
+
+.name_of_user_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #1E4391;
+}
+
+.header_text {
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 140%;
+    color: #1E4391;
+}
+
+.name_notification {
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #1E4391;
+    font-weight: 700;
+}
+
+.name_mailing {
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.main_path_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+}
+
+.main_first_color {
+    color:  #748AB9;
+}
+
+.main_second_color {
+    color: #CAD1E1;
+}
+
+.footer_text {
+    color: #A7A7A7;
+}
+
+.navigation_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #545454;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-left: 0.5rem;
+}
+
+.button_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+}
+
+.created_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #000000;
+}
+
+.blue_header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    color: #1E4391;
+}
+
+.black_small_header{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: black;
+}
+
+.choice_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #000000;
+}
