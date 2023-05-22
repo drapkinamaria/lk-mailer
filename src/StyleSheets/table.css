@@ -1,0 +1,39 @@
+.block_main_part_table {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: 92%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+}
+
+table {
+    font-size: 14px;
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+    font-weight: 700;
+    color: #1E4391;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+td {
+    padding: 0.75rem 0.75rem;
+    border-bottom: 1px solid #E4E7ED;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}

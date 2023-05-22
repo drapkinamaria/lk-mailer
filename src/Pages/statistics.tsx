@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
 import Header from '../Components/Header'
-import NavBar from "../Components/NavBar"
-import Footer from '../Components/Footer'
+import NavBar from "../Components/NavBar";
+import '../StyleSheets/mailing_elements.css'
+import Footer from "../Components/Footer";
 
-export default function CreateNotification() {
+export default function Statistics() {
     return (
         <div>
             <Header/>
@@ -12,21 +13,56 @@ export default function CreateNotification() {
                 <div className="block_main_part">
                     <div className="path_page">
                         <div className="main_path_text main_first_color">Главная/</div>
-                        <div className="main_path_text main_second_color">Корпоративные сервисы/Создать уведомление</div>
+                        <div className="main_path_text main_second_color">Корпоративные сервисы/Статистика</div>
                     </div>
-                    <div className="name_notification blue">Создать уведомление</div>
+                    <div className="name_notification blue">Статистика</div>
                 </div>
                 <div className="block_main_part">
                     <div>
-                        <div className="blue_header">Тип доставки</div>
-                        <div className="flex_property">
-                            <input type="checkbox" value="телеграм"/><label>телеграм</label>
-                            <input type="checkbox" value="почта"/><label>почта</label>
-                            <input type="checkbox" value="оповещение"/><label>оповещение в ЛК</label>
+                        <div className="blue_header">Общие фильтры</div>
+                        <div className="black_small_header">Тема уведомления</div>
+                        <div className="search_block">
+                            <div className="big_search_icon"></div>
+                            <input className="search choice_text"></input>
                         </div>
+                        <div className="black_small_header">Количество адресатов</div>
+                        <div className="gap flex_property">
+                            <div className="block">
+                                <select className="choice choice_text">
+                                    <option className="choice_text">Привет</option>
+                                    <option className="choice_text">Привет</option>
+                                </select>
+                            </div>
+                            <div className="block">
+                                <div className="search_block">
+                                    <div className="big_search_icon"></div>
+                                    <input className="search choice_text"></input>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="black_small_header">Автор</div>
+                            <div className="search_block">
+                                <div className="big_search_icon"></div>
+                                <input className="search choice_text"></input>
+                            </div>
+                        </div>
+                        <div className="black_small_header">Период отправки</div>
                     </div>
                     <div>
-                        <div className="blue_header">Кому</div>
+                        <div className="blue_header">Фильтры по целевой аудитории</div>
+                        <div className="black_small_header">Категории получателей</div>
+                        <div>
+                            <select className="choice choice_text">
+                                <option className="choice_text">Привет</option>
+                                <option className="choice_text">Привет</option>
+                            </select>
+                        </div>
+                        <div className="black_small_header">Адресат</div>
+                        <div className="search_block">
+                            <div className="big_search_icon"></div>
+                            <input className="search choice_text"></input>
+                        </div>
                         <div className="flex_property gap">
                             <div className="block_four_elements">
                                 <div className="black_small_header">Вид трудоустройства</div>
@@ -85,66 +121,23 @@ export default function CreateNotification() {
                                 </select>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className="blue_header_container">
-                            <div className="blue_header">Контент</div>
-                        </div>
-                        <div className="content_header">
-                            <div className="square-container">
-                                <div className="square-block">
-                                    <button className="left_square">
-                                        <img src = "" alt="My Happy SVG"/>
-                                    </button>
-                                    <button className="right_square">
-                                        <span className="picture_settings arrow_forward"></span>
-                                    </button>
-                                </div>
-                                <div className="square-block">
-                                    <button className="left_square">
-                                        <span className="picture_settings bold"></span>
-                                    </button>
-                                    <button className="without_borders_square">
-                                        <span className="picture_settings italic"></span>
-                                    </button>
-                                    <button className="ordinary_square">
-                                        <span className="picture_settings underline"></span>
-                                    </button>
-                                    <button className="right_square">
-                                        <span className="new_picture_settings rubber"></span>
-                                    </button>
-                                </div>
-                                <div className="square-block">
-                                    <button className="left_square">
-                                        <span className="new_picture_settings left hamburger"></span>
-                                    </button>
-                                    <button className="right_square">
-                                        <span className="picture_settings numbered_list"></span>
-                                    </button>
-                                </div>
-                                <div className="square-block">
-                                    <button className="left_square">
-                                        <span className="picture_settings link"></span>
-                                    </button>
-                                    <button className="right_square">
-                                        <span className="second_picture_settings picture"></span>
-                                    </button>
-                                </div>
-                                <div className="square-block">
-                                    <button className="square">
-                                        <span className="second_picture_settings code"></span>
-                                    </button>
-                                </div>
-                                                            </div>
-                        </div>
-                        <div className="content_bottom"></div>
-                    </div>
-                    <div>
                         <button className="button blue-background button_text">Применить фильтры</button>
                     </div>
+                    <div>
+                        <div className="blue_header">Примененные фильтры</div>
+                        <div className="gap flex_property">
+                            <div className="amount_of_people">Число отправленных сообщений - 1000</div>
+                            <div className="amount_of_people">Число доставленных сообщений - 1000</div>
+                        </div>
+                        <div className="gap flex_property">
+                            <div className="amount_of_people">Число прочитанных сообщений - 1000</div>
+                            <div className="amount_of_people">Число недоставленных сообщений - 1000</div>
+                        </div>
+                    </div>
+
                 </div>
             </main>
             <Footer/>
         </div>
-    );
+    )
 }

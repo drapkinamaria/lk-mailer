@@ -1,0 +1,81 @@
+.navigation {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    width: 13.3rem;
+    height: calc(100% - 5rem);
+    background-color: #F6F6F6;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-top: 1.4rem;
+    padding-left: 1.7rem;
+}
+
+.information {
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url("src/Svg/information.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 10%;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.doc {
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url("src/Svg/doc.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 10%;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.documents {
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url("src/Svg/documents.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 15%;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.lk_role {
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url("src/Svg/lk-role.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 10%;
+    width: 1.5rem;
+    height: 1.4rem;
+}
+
+.role {
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url("src/Svg/role.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 15%;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.navigation_properties {
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text_image_block {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
