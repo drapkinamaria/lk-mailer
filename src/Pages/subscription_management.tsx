@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 import Header from "../Components/Header";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
-import 'tailwindcss/tailwind.css'
+import "../StyleSheets/styles.css"
+
 
 export default function SubscriptionManagement() {
     return(
@@ -17,19 +18,19 @@ export default function SubscriptionManagement() {
                     </div>
                     <div className="name_notification blue">Управление подписками</div>
                 </div>
-                <div className="block_main_part_table">
+                <div className="block_main_part_table flex gap-0.5">
                     <div className="blue_header">Параметры отписки</div>
                     <div>Для отписки, пожалуйста укажите категорию получателя и канал доставки, по которым вы не
                         желаете получать уведомления.</div>
-                    <div className="flex_property gap">
-                        <div className="block">
+                    <div className="flex flex-row gap-7">
+                        <div className="two_elements">
                             <div className="black_small_header">Категория получателя</div>
                             <select className="choice choice_text">
                                 <option className="choice_text">Студенты</option>
                                 <option className="choice_text">Преподаватели</option>
                             </select>
                         </div>
-                        <div className="block">
+                        <div className="two_elements">
                             <div className="black_small_header">Канал доставки</div>
                             <select className="choice choice_text">
                                 <option className="choice_text">Личный кабинет</option>
@@ -37,11 +38,12 @@ export default function SubscriptionManagement() {
                                 <option className="choice_text">Email</option>
                             </select>
                         </div>
-                    <div>
+                    </div>
+                    <div className="flex mt-1.5">
                         <button className="button blue-background button_text">Добавить отписку</button>
                     </div>
                     <div>Обратите внимание, что отписка отключает отправку только необязательных рассылок. Вам будут
-                        отправляться только обязательные уведомления о важных событиях</div>
+                        отправляться только обязательные уведомления о важных событиях
                     </div>
                     <div className="blue_header">Список отписок</div>
                     <div className="flex_property">
@@ -75,11 +77,19 @@ export default function SubscriptionManagement() {
                                 <button className="close-button red">X</button>
                             </td>
                         </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Работникам</td>
+                            <td>Телеграм</td>
+                            <td>
+                                <button className="close-button red">X</button>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
+                <Footer/>
             </main>
-            <Footer/>
         </div>
     )
 }

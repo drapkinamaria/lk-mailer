@@ -22,14 +22,8 @@
 }
 
 .logo_urfu {
-    box-sizing: border-box;
-    display: flex;
-    position: relative;
     width: 7.5rem;
     height: 3rem;
-    margin-top: 0.7rem;
-    background-image: url('src/Svg/logo_urfu.svg');
-    background-repeat: no-repeat;
     transform: scale(1.2);
 }
 
@@ -37,7 +31,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .circle {
@@ -52,16 +46,7 @@
     line-height: 3rem;
 }
 
-.four_circles {
-    width: 1.25rem;
-    height: 1.25rem;
-    background-image: url("src/Svg/four_circles.svg");
-    background-repeat: no-repeat;
-}
-
 .search_icon {
-    background-image: url("src/Svg/search_icon.svg");
-    background-repeat: no-repeat;
     width: 1.2rem;
     height: 1.2rem;
 }

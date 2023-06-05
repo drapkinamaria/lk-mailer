@@ -29,3 +29,31 @@
 .gray {
     color: #545454;
 }
+
+.green-background {
+    background-color: #EDF7EB;
+}
+
+.light-blue-background {
+    background-color: #E7F2FF;
+}
+
+.orange-background {
+    background-color: #FCF4E6;
+}
+
+.gray-background {
+    background-color: #F6F6F6;
+}
+
+.green {
+    color: #147246;
+}
+
+.orange {
+    color: #E98446;
+}
+
+.white {
+    color: #FFFFFF;
+}

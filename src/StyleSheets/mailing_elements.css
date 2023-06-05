@@ -1,22 +1,19 @@
-.mailing_container {
-    display: flex;
-    gap: 5px;
-}
-
 .button {
-    display: inline-block;
+    display: flex;
     height: 3rem;
     border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
     border: none;
 }
 
-.content_header {
+.gray_header {
     width: 100%;
     height: auto;
     background-color: #F6F6F6;
-    border-width: 1px 1px 0px 1px;
+    border-width: 1px 1px 0 1px;
     border-style: solid;
     border-color: #D3D3D3;
     border-radius: 10px 10px 0 0;
@@ -26,162 +23,12 @@
     padding-left: 0.5rem;
 }
 
-.content_bottom {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    border-radius: 0 0 10px 10px;
-}
-
-.small_button {
-    width: 2rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    border: 1px solid #D3D3D3;
-}
-
-.picture_settings {
-    width: 2rem;
-    height: 2rem;
-    background-repeat: no-repeat;
-    background-size: 2rem 2rem;
-    background-position: center;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-}
-
-.new_picture_settings {
-    width: 1.65rem;
-    height: 1.65rem;
-    background-repeat: no-repeat;
-    background-size: 1.65rem 1.65rem;
-    background-position: center;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-}
-
-.second_picture_settings {
-    width: 1.8rem;
-    height: 1.8rem;
-    background-repeat: no-repeat;
-    background-size: 1.8rem 1.8rem;
-    background-position: center;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-}
-
-.numbered_list {
-    background-image: url("src/Svg/numbered-list-svgrepo-com.svg");
-}
-
-.arrow_back {
-    background-image: url("src/Svg/arrow-go-back-svgrepo-com.svg");
-}
-
-.arrow_forward {
-    background-image: url("src/Svg/arrow-go-forward-svgrepo-com.svg");
-}
-
-.bold {
-    background-image: url("src/Svg/bold-svgrepo-com.svg");
-}
-
-.italic {
-    background-image: url("src/Svg/italic-svgrepo-com.svg");
-}
-
-.underline {
-    background-image: url("src/Svg/underline-svgrepo-com.svg");
-}
-
-.rubber {
-    background-image: url("src/Svg/rubber-svgrepo-com.svg");
-}
-
-.hamburger {
-    background-image: url("src/Svg/list-svgrepo-com.svg");
-}
-
-.link {
-    background-image: url("src/Svg/link-svgrepo-com.svg");
-}
-
-.picture {
-    background-image: url("src/Svg/image-svgrepo-com.svg");
-}
-
-.code {
-    background-image: url("src/Svg/code-svgrepo-com.svg");
-}
-
 .choice {
     width: 100%;
     height: 2.5rem;
     background: #FFFFFF;
     border: 1px solid #D3D3D3;
     border-radius: 10px;
-}
-
-.checkbox_container label {
-    margin: 0 1rem 0 0;
-}
-
-.checkbox_container input[type="checkbox"] {
-    margin-right: 0.3125rem;
-}
-
-.square-container {
-    display: flex;
-}
-
-.ordinary_square {
-    width: 2rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    border: solid #D3D3D3;
-    border-width: 0.0625rem;
-}
-
-.without_borders_square {
-    width: 2rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    border: solid #D3D3D3;
-    border-width: 0.0625rem 0 0.0625rem 0;
-}
-
-.left_square {
-    width: 2rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    border: 1px solid #D3D3D3;
-    border-radius: 0.625rem 0 0 0.625rem;
-}
-
-.right_square {
-    width: 2rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    border: solid #D3D3D3;
-    border-radius: 0rem 0.625rem 0.625rem 0rem;
-    border-width: 0.0625rem 0.0625rem 0.0625rem 0rem;
-}
-
-.square-block {
-    display: flex;
-    margin-right: 1.25rem;
-}
-
-.square {
-    width: 2rem;
-    height: 2rem;
-    background-color: #FFFFFF;
-    border: solid #D3D3D3;
-    border-radius:0.625rem;
-    border-width: 0.0625rem;
 }
 
 .close-button {
@@ -210,30 +57,16 @@
     line-height: 1.3rem;
 }
 
-.flex_property {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.block {
+.two_elements {
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
-    width: 48%;
+    row-gap: 0.25rem;
+    width: 49%;
 }
 
-.block_four_elements {
+.three_elements {
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
-    width: 22%;
-}
-
-.new_gap {
-    gap: 0.5rem;
-}
-
-.gap {
-    column-gap: 3rem;
-    row-gap: 8px;
+    row-gap: 0.25rem;
+    width: 32%
 }

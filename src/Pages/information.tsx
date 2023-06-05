@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import NavBar from "../Components/NavBar";
 import '../StyleSheets/mailing_elements.css'
 import Footer from "../Components/Footer";
+import "../StyleSheets/styles.css"
 
 export default function Information() {
     return (
@@ -22,8 +23,8 @@ export default function Information() {
                     <div>https://docs.google.com/document/d/1Mn99ExBR42o9aIwfl2Z8Ft0QkBwnO3BcvY74tQgiRv4/edit#</div>
                     <div>https://gitlab.urfu.ru/students/lk-mailer</div>
                 </div>
+                <Footer/>
             </main>
-            <Footer/>
         </div>
     )
 }
