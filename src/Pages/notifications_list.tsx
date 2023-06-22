@@ -25,7 +25,7 @@ export default function NotificationsList() {
                     <table className="table">
                         <thead>
                             <tr>
-                                <th>№</th>
+                                <th className="first_last_column"></th>
                                 <th>Название уведомления</th>
                                 <th>Кому</th>
                                 <th>Дата создания уведомления</th>
@@ -33,12 +33,13 @@ export default function NotificationsList() {
                                 <th>Состояние</th>
                                 <th>Доставка</th>
                                 <th>Дата последней доставки</th>
+                                <th className="first_last_column"></th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Тестовое название</td>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td className="blue">Тестовое название</td>
                                 <td>Студентам</td>
                                 <td>03 марта 2023,<br /> 11:33:23</td>
                                 <td>Филатов Сергей Владимирович</td>
@@ -48,10 +49,11 @@ export default function NotificationsList() {
                                     респондентов: 120,<br />доставлено: 0,<br />
                                     не удалось доставить: 120</td>
                                 <td>03 марта 2023,<br /> 11:33:23</td>
+                                <td className="first_last_column"></td>
                             </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Приглашение на участие в турнире по мини-гольфу</td>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td className="blue">Приглашение на участие в турнире по мини-гольфу</td>
                                 <td>Работникам</td>
                                 <td>03 марта 2023,<br /> 11:33:23</td>
                                 <td>Дружинина Надежда Геннадьевна</td>
@@ -62,10 +64,11 @@ export default function NotificationsList() {
                                     доставлено: 0,<br />
                                     не удалось доставить: 120</td>
                                 <td>03 марта 2023, <br /> 12:23:45</td>
+                                <td className="first_last_column"></td>
                             </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Приглашение на участие в турнире по мини-гольфу</td>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td className="blue">Приглашение на участие в турнире по мини-гольфу</td>
                                 <td>Работникам</td>
                                 <td>03 марта 2023,<br /> 11:33:23</td>
                                 <td>Дружинина Надежда Геннадьевна</td>
@@ -76,10 +79,11 @@ export default function NotificationsList() {
                                     доставлено: 0,<br />
                                     не удалось доставить: 120</td>
                                 <td>03 марта 2023, <br /> 12:23:45</td>
+                                <td className="first_last_column"></td>
                             </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Приглашение на участие в турнире по мини-гольфу</td>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td className="blue">Приглашение на участие в турнире по мини-гольфу</td>
                                 <td>Работникам</td>
                                 <td>03 марта 2023,<br /> 11:33:23</td>
                                 <td>Дружинина Надежда Геннадьевна</td>
@@ -90,31 +94,32 @@ export default function NotificationsList() {
                                     доставлено: 0,<br />
                                     не удалось доставить: 120</td>
                                 <td>03 марта 2023, <br /> 12:23:45</td>
+                                <td className="first_last_column"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div className="pagination">
-                    <p>Записи с 1 по 20 из 23456</p>
+                    <p className="pagination_text">Записи с 1 по 20 из 23456</p>
                     <div className="flex flex-row gap-2 justify-center">
-                        <div>Выводить по</div>
-                        <div className="flex flex-row gap-4">
-                            <button className="blue">20</button>
-                            <button>40</button>
-                            <button>60</button>
+                        <div className="pagination_text">Выводить по</div>
+                        <div className="flex flex-row gap-5">
+                            <button className="button_pagination blue">20</button>
+                            <button className="button_pagination">40</button>
+                            <button className="button_pagination">60</button>
                         </div>
                     </div>
-                    <div className="flex justify-end gap-4">
+                    <div className="flex justify-end gap-5">
                         <button>
                             <img src={left}></img>
                         </button>
-                        <button className="choose_amount blue-background white">1</button>
-                        <button>2</button>
-                        <button>3</button>
-                        <button>4</button>
-                        <button>5</button>
+                        <button className="button_pagination_blue">1</button>
+                        <button className="button_pagination">2</button>
+                        <button className="button_pagination">3</button>
+                        <button className="button_pagination">4</button>
+                        <button className="button_pagination">5</button>
                         <div>...</div>
-                        <button>813</button>
+                        <button className="button_pagination">813</button>
                         <button>
                             <img src={right}></img>
                         </button>

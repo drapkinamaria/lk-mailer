@@ -1,4 +1,7 @@
 .ordinary_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
     background-color: #FFFFFF;
@@ -7,6 +10,9 @@
 }
 
 .without_borders_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
     background-color: #FFFFFF;
@@ -15,6 +21,9 @@
 }
 
 .left_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
     background-color: #FFFFFF;
@@ -23,6 +32,9 @@
 }
 
 .right_square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
     background-color: #FFFFFF;
@@ -32,6 +44,9 @@
 }
 
 .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
     background-color: #FFFFFF;
@@ -41,20 +56,20 @@
 }
 
 .hamburger {
-    padding-left: 4px;
-    height: 1.4rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 .code {
-    width: 1.6rem;
-    padding-left: 5px;
+    width: 1.2rem;
 }
 
 .four_elements {
     display: flex;
     flex-direction: column;
-    row-gap: 0.25rem;
-    width: 23.1%;
+    row-gap: 0.5rem;
+    min-width: 16.7rem;
+    width: calc(calc((100% - 5.25rem) / 4));
 }
 
 .content_input {
@@ -69,18 +84,104 @@
 
 .input {
     width: 100%;
+    min-width: 16.7rem;
     height: 2.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     background: #FFFFFF;
-    border: 1px solid #D3D3D3;
+    outline: 1px solid #D3D3D3;
     border-radius: 10px;
+}
+
+.input:hover, .input:active, .input[data-hover], .input:focus {
+    outline-color: #748AB9;
 }
 
 .datepicker {
     width: 100%;
     height: 2.5rem;
     border-radius: 10px;
-    padding: 5px;
-    border: 1px solid #D3D3D3;
+    padding-left: 0.5rem;
+    padding-right: 0.7rem;
+    outline: 1px solid #D3D3D3;
+}
+
+.datepicker:hover, .datepicker:active, .datepicker[data-hover], .datepicker:focus, datepicker:valid {
+    outline-color: #748AB9;
+}
+
+.image {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.underline {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.rubber {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.numbered_list {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#delivery {
+    accent-color: #1E4391;
+}
+
+ul.choice {
+    display:none;
+    list-style-type: none;
+    height: auto;
+    max-height: 242px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+li:hover {
+    background: #E7F2FF;
+}
+
+ul.choice.visible {
+    display:block;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    isolation: isolate;
+}
+
+#container > img {
+    right: 0.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    font-size: 16rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0.8rem;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.three_four_el {
+    min-width: 16.7rem;
+    flex: 1 0 auto;;
 }

@@ -18,73 +18,79 @@ export default function SubscriptionManagement() {
                     </div>
                     <div className="name_notification blue">Управление подписками</div>
                 </div>
-                <div className="block_main_part_table flex gap-0.5">
-                    <div className="blue_header">Параметры отписки</div>
-                    <div>Для отписки, пожалуйста укажите категорию получателя и канал доставки, по которым вы не
-                        желаете получать уведомления.</div>
-                    <div className="flex flex-row gap-7">
-                        <div className="two_elements">
-                            <div className="black_small_header">Категория получателя</div>
-                            <select className="choice choice_text">
-                                <option className="choice_text">Студенты</option>
-                                <option className="choice_text">Преподаватели</option>
-                            </select>
+                <div className="block_main_part_table flex gap-y-1">
+                    <div className="px-6 flex flex-col gap-y-3">
+                        <div className="blue_header">Параметры отписки</div>
+                        <div>Для отписки, пожалуйста укажите категорию получателя и канал доставки, по которым вы не
+                            желаете получать уведомления.</div>
+                        <div className="flex flex-row gap-x-7 gap-y-3 flex-wrap">
+                            <div className="two_elements">
+                                <div className="black_small_header">Категория получателя</div>
+                                <select className="choice">
+                                    <option>Студенты</option>
+                                    <option>Преподаватели</option>
+                                </select>
+                            </div>
+                            <div className="two_elements">
+                                <div className="black_small_header">Канал доставки</div>
+                                <select className="choice choice_text">
+                                    <option>Личный кабинет</option>
+                                    <option>Телеграм</option>
+                                    <option>Email</option>
+                                </select>
+                            </div>
                         </div>
-                        <div className="two_elements">
-                            <div className="black_small_header">Канал доставки</div>
-                            <select className="choice choice_text">
-                                <option className="choice_text">Личный кабинет</option>
-                                <option className="choice_text">Телеграм</option>
-                                <option className="choice_text">Email</option>
-                            </select>
+                        <div className="flex mt-1">
+                            <button className="blue_button button_text">Добавить отписку</button>
+                        </div>
+                        <div>Обратите внимание, что отписка отключает отправку только необязательных рассылок. Вам будут
+                            отправляться только обязательные уведомления о важных событиях
+                        </div>
+                        <div className="blue_header">Список отписок</div>
+                        <div>
+                            (чтобы убрать ненужную отписку и подписаться повторно, нажмите на кнопку &nbsp;
+                            <button className="small-close-button">X</button>
+                            )
                         </div>
                     </div>
-                    <div className="flex mt-1.5">
-                        <button className="button blue-background button_text">Добавить отписку</button>
-                    </div>
-                    <div>Обратите внимание, что отписка отключает отправку только необязательных рассылок. Вам будут
-                        отправляться только обязательные уведомления о важных событиях
-                    </div>
-                    <div className="blue_header">Список отписок</div>
-                    <div className="flex_property">
-                        (чтобы убрать ненужную отписку и подписаться повторно, нажмите на кнопку &nbsp;
-                        <button className="small-close-button red">X</button>
-                        )
-                    </div>
-                    <table className="table">
+                    <table className="table mt-3.5">
                         <thead>
-                        <tr>
-                            <th>№</th>
-                            <th>Категория получателя</th>
-                            <th>Канал доставки</th>
-                            <th>Отписка</th>
-                        </tr>
+                            <tr>
+                                <th className="first_last_column top_th"></th>
+                                <th className="top_th">Категория получателя</th>
+                                <th className="top_th">Канал доставки</th>
+                                <th className="top_th">Отписка</th>
+                                <th className="first_last_column top_th"></th>
+                            </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Обучающимся</td>
-                            <td>Email</td>
-                            <td>
-                                <button className="close-button red">X</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Работникам</td>
-                            <td>Личный кабинет</td>
-                            <td>
-                                <button className="close-button red">X</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Работникам</td>
-                            <td>Телеграм</td>
-                            <td>
-                                <button className="close-button red">X</button>
-                            </td>
-                        </tr>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td>Обучающимся</td>
+                                <td>Email</td>
+                                <td>
+                                    <button className="close-button">X</button>
+                                </td>
+                                <td className="first_last_column"></td>
+                            </tr>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td>Работникам</td>
+                                <td>Личный кабинет</td>
+                                <td>
+                                    <button className="close-button">X</button>
+                                </td>
+                                <td className="first_last_column"></td>
+                            </tr>
+                            <tr className="row">
+                                <td className="first_last_column"></td>
+                                <td>Работникам</td>
+                                <td>Телеграм</td>
+                                <td>
+                                    <button className="close-button">X</button>
+                                </td>
+                                <td className="first_last_column"></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

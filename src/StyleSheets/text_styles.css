@@ -56,9 +56,9 @@
 
 .button_text {
     font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
     color: #FFFFFF;
 }
 
@@ -95,15 +95,6 @@
     color: #000000;
 }
 
-.choice_text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 0.3px;
-    color: #222222;
-}
-
 .amount_of_people {
     flex: 1;
     font-style: normal;
@@ -111,4 +102,11 @@
     font-size: 20px;
     line-height: 140%;
     color: #000000;
+}
+
+.pagination_text {
+    font-weight: 400;
+    line-height: 140%;
+    color: #222222;
+    font-size: 14px;
 }

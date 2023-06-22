@@ -11,3 +11,16 @@
     padding-top: 1.4rem;
     padding-left: 1.7rem;
 }
+
+.picture_svg {
+    filter: invert(0) sepia(1) saturate(10000%) hue-rotate(207deg) brightness(0.9);
+}
+
+.line {
+
+}
+
+.line:hover {
+    filter: invert(0) sepia(1) saturate(10000%) hue-rotate(207deg) brightness(0.8);
+    color: #1E4391;
+}

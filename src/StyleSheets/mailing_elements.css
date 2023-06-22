@@ -1,12 +1,18 @@
-.button {
+.blue_button {
     display: flex;
-    height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-radius: 0.625rem;
     justify-content: center;
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
+    background-color: #1E4391;
     border: none;
+}
+
+.blue_button:hover {
+    background-color: #0F2B5E;
 }
 
 .gray_header {
@@ -24,11 +30,19 @@
 }
 
 .choice {
+    display: flex;
     width: 100%;
     height: 2.5rem;
+    padding-left: 0.3rem;
     background: #FFFFFF;
     border: 1px solid #D3D3D3;
+    color: #222222;
     border-radius: 10px;
+}
+
+.choice:focus, .choice:hover {
+    outline: none;
+    border: 1px solid #748AB9;
 }
 
 .close-button {
@@ -38,10 +52,15 @@
     width: 2.5rem;
     height: 2.5rem;
     color: white;
+    background-color: #EF302B;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
+}
+
+.close-button:hover {
+    background-color: #C0231F;
 }
 
 .small-close-button {
@@ -51,22 +70,29 @@
     width: 1.3rem;
     height: 1.3rem;
     color: white;
+    background-color: #EF302B;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     line-height: 1.3rem;
 }
 
+.small-close-button:hover {
+    background-color: #C0231F;
+}
+
 .two_elements {
     display: flex;
     flex-direction: column;
-    row-gap: 0.25rem;
-    width: 49%;
+    row-gap: 0.5rem;
+    min-width: 16.7rem;
+    width: calc((100% - 1.75rem) / 2);
 }
 
 .three_elements {
     display: flex;
     flex-direction: column;
-    row-gap: 0.25rem;
-    width: 32%
+    row-gap: 0.5rem;
+    min-width: 16.7rem;
+    width: calc((100% - 3.5rem) / 3);
 }

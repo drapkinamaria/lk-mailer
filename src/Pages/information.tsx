@@ -19,9 +19,11 @@ export default function Information() {
                     <div className="name_notification blue">Информация</div>
                 </div>
                 <div className="block_main_part">
-                    <h1>Lorem Ipsum</h1>
-                    <div>https://docs.google.com/document/d/1Mn99ExBR42o9aIwfl2Z8Ft0QkBwnO3BcvY74tQgiRv4/edit#</div>
-                    <div>https://gitlab.urfu.ru/students/lk-mailer</div>
+                    <div className="flex flex-col gap-y-3">
+                        <h1>Lorem Ipsum</h1>
+                        <div>https://docs.google.com/document/d/1Mn99ExBR42o9aIwfl2Z8Ft0QkBwnO3BcvY74tQgiRv4/edit#</div>
+                        <div>https://gitlab.urfu.ru/students/lk-mailer</div>
+                    </div>
                 </div>
                 <Footer/>
             </main>

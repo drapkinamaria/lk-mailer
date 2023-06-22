@@ -8,8 +8,6 @@
     margin-top: 1rem;
     background-color: white;
     border-radius: 10px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
     padding-top: 1rem;
 }
 
@@ -21,21 +19,35 @@ table {
     text-align: left;
 }
 
+.top_th {
+    border-top: 2px solid #1E4391;
+}
+
 th {
-    font-weight: normal;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
     color: #1E4391;
-    border-bottom: 2px solid #6678b1;
-    padding: 10px 8px;
+    border-bottom: 2px solid #1E4391;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 td {
+    font-weight: 400;
+    color: #222222;
+    font-size: 14px;
+    line-height: 140%;
     padding: 0.75rem 0.75rem;
     border-bottom: 1px solid #E4E7ED;
 }
 
 tr:last-child td {
     border-bottom: none;
+}
+
+.row:hover {
+    background-color: #E4E7ED;
 }
 
 .pagination {
@@ -55,6 +67,32 @@ tr:last-child td {
     margin-top: 1rem;
 }
 
+.button_pagination {
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 14px;
+    color: #545454;
+}
+
+.button_pagination_blue {
+    width: auto;
+    height: auto;
+    padding-bottom: 4px;
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #1E4391;
+}
+
+.button_pagination:hover {
+    color: #222222;
+}
+
 .status {
     display: flex;
     justify-content: center;
@@ -68,12 +106,6 @@ tr:last-child td {
     line-height: 140%;
 }
 
-.choose_amount {
-    width: auto;
-    height: auto;
-    padding-bottom: 4px;
-    padding-top: 4px;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 8px;
+.first_last_column {
+    width: 36px;
 }

@@ -30,6 +30,10 @@
     color: #545454;
 }
 
+.gray_navbar {
+    color: #7A7A7A;
+}
+
 .green-background {
     background-color: #EDF7EB;
 }
@@ -56,4 +60,8 @@
 
 .white {
     color: #FFFFFF;
+}
+
+.red-text {
+    color: #EF302B;
 }
